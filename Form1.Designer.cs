@@ -34,6 +34,7 @@
             label11 = new Label();
             label17 = new Label();
             txt_time1 = new TextBox();
+            label18 = new Label();
             label5 = new Label();
             txt_sernum1 = new TextBox();
             label4 = new Label();
@@ -46,6 +47,11 @@
             txt_level1 = new TextBox();
             checkBox1 = new CheckBox();
             groupBox2 = new GroupBox();
+            label15 = new Label();
+            label14 = new Label();
+            label13 = new Label();
+            label12 = new Label();
+            txt_date2 = new TextBox();
             label6 = new Label();
             txt_sernum2 = new TextBox();
             label7 = new Label();
@@ -57,8 +63,6 @@
             label10 = new Label();
             txt_level2 = new TextBox();
             checkBox2 = new CheckBox();
-            label12 = new Label();
-            txt_date2 = new TextBox();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -69,6 +73,7 @@
             groupBox1.Controls.Add(label11);
             groupBox1.Controls.Add(label17);
             groupBox1.Controls.Add(txt_time1);
+            groupBox1.Controls.Add(label18);
             groupBox1.Controls.Add(label5);
             groupBox1.Controls.Add(txt_sernum1);
             groupBox1.Controls.Add(label4);
@@ -82,6 +87,7 @@
             groupBox1.Controls.Add(checkBox1);
             groupBox1.Location = new Point(10, 12);
             groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(218, 263);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             groupBox1.Text = "Сток №1 (на территории)";
@@ -100,6 +106,7 @@
             // 
             label11.AutoSize = true;
             label11.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            label11.Location = new Point(5, 192);
             label11.Name = "label11";
             label11.Size = new Size(58, 21);
             label11.TabIndex = 14;
@@ -118,15 +125,26 @@
             // txt_time1
             // 
             txt_time1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            txt_time1.Location = new Point(84, 184);
             txt_time1.Name = "txt_time1";
+            txt_time1.Size = new Size(70, 29);
             txt_time1.TabIndex = 13;
             // 
+            // label18
             // 
+            label18.AutoSize = true;
+            label18.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            label18.Location = new Point(157, 90);
+            label18.Name = "label18";
+            label18.Size = new Size(56, 21);
+            label18.TabIndex = 18;
+            label18.Text = "м³/сек";
             // 
             // label5
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            label5.Location = new Point(5, 227);
             label5.Name = "label5";
             label5.Size = new Size(63, 21);
             label5.TabIndex = 11;
@@ -135,13 +153,16 @@
             // txt_sernum1
             // 
             txt_sernum1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            txt_sernum1.Location = new Point(84, 218);
             txt_sernum1.Name = "txt_sernum1";
+            txt_sernum1.Size = new Size(70, 29);
             txt_sernum1.TabIndex = 10;
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            label4.Location = new Point(5, 158);
             label4.Name = "label4";
             label4.Size = new Size(47, 21);
             label4.TabIndex = 9;
@@ -150,13 +171,16 @@
             // txt_date1
             // 
             txt_date1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            txt_date1.Location = new Point(84, 150);
             txt_date1.Name = "txt_date1";
+            txt_date1.Size = new Size(70, 29);
             txt_date1.TabIndex = 8;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            label3.Location = new Point(5, 124);
             label3.Name = "label3";
             label3.Size = new Size(62, 21);
             label3.TabIndex = 7;
@@ -165,13 +189,16 @@
             // txt_value1
             // 
             txt_value1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            txt_value1.Location = new Point(84, 116);
             txt_value1.Name = "txt_value1";
+            txt_value1.Size = new Size(70, 29);
             txt_value1.TabIndex = 6;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            label2.Location = new Point(5, 90);
             label2.Name = "label2";
             label2.Size = new Size(62, 21);
             label2.TabIndex = 5;
@@ -180,13 +207,16 @@
             // txt_rate1
             // 
             txt_rate1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            txt_rate1.Location = new Point(84, 82);
             txt_rate1.Name = "txt_rate1";
+            txt_rate1.Size = new Size(70, 29);
             txt_rate1.TabIndex = 4;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            label1.Location = new Point(5, 56);
             label1.Name = "label1";
             label1.Size = new Size(73, 21);
             label1.TabIndex = 3;
@@ -195,7 +225,9 @@
             // txt_level1
             // 
             txt_level1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            txt_level1.Location = new Point(84, 48);
             txt_level1.Name = "txt_level1";
+            txt_level1.Size = new Size(70, 29);
             txt_level1.TabIndex = 1;
             // 
             // checkBox1
@@ -215,7 +247,6 @@
             groupBox2.Controls.Add(label13);
             groupBox2.Controls.Add(label12);
             groupBox2.Controls.Add(txt_date2);
-            groupBox2.Controls.Add(radioBtn2);
             groupBox2.Controls.Add(label6);
             groupBox2.Controls.Add(txt_sernum2);
             groupBox2.Controls.Add(label7);
@@ -229,11 +260,30 @@
             groupBox2.Controls.Add(checkBox2);
             groupBox2.Location = new Point(235, 12);
             groupBox2.Name = "groupBox2";
+            groupBox2.Size = new Size(218, 263);
             groupBox2.TabIndex = 13;
             groupBox2.TabStop = false;
             groupBox2.Text = "Сток №2 (за территорией)";
             // 
+            // label15
             // 
+            label15.AutoSize = true;
+            label15.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            label15.Location = new Point(159, 124);
+            label15.Name = "label15";
+            label15.Size = new Size(27, 21);
+            label15.TabIndex = 17;
+            label15.Text = "м³";
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            label14.Location = new Point(159, 56);
+            label14.Name = "label14";
+            label14.Size = new Size(21, 21);
+            label14.TabIndex = 16;
+            label14.Text = "м";
             // 
             // label13
             // 
@@ -267,6 +317,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            label6.Location = new Point(8, 227);
             label6.Name = "label6";
             label6.Size = new Size(63, 21);
             label6.TabIndex = 11;
@@ -275,13 +326,16 @@
             // txt_sernum2
             // 
             txt_sernum2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            txt_sernum2.Location = new Point(83, 218);
             txt_sernum2.Name = "txt_sernum2";
+            txt_sernum2.Size = new Size(70, 29);
             txt_sernum2.TabIndex = 10;
             // 
             // label7
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            label7.Location = new Point(7, 192);
             label7.Name = "label7";
             label7.Size = new Size(58, 21);
             label7.TabIndex = 9;
@@ -290,13 +344,16 @@
             // txt_time2
             // 
             txt_time2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            txt_time2.Location = new Point(83, 184);
             txt_time2.Name = "txt_time2";
+            txt_time2.Size = new Size(70, 29);
             txt_time2.TabIndex = 8;
             // 
             // label8
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            label8.Location = new Point(8, 124);
             label8.Name = "label8";
             label8.Size = new Size(62, 21);
             label8.TabIndex = 7;
@@ -305,13 +362,16 @@
             // txt_value2
             // 
             txt_value2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            txt_value2.Location = new Point(83, 116);
             txt_value2.Name = "txt_value2";
+            txt_value2.Size = new Size(70, 29);
             txt_value2.TabIndex = 6;
             // 
             // label9
             // 
             label9.AutoSize = true;
             label9.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            label9.Location = new Point(8, 90);
             label9.Name = "label9";
             label9.Size = new Size(62, 21);
             label9.TabIndex = 5;
@@ -320,13 +380,16 @@
             // txt_rate2
             // 
             txt_rate2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            txt_rate2.Location = new Point(83, 82);
             txt_rate2.Name = "txt_rate2";
+            txt_rate2.Size = new Size(70, 29);
             txt_rate2.TabIndex = 4;
             // 
             // label10
             // 
             label10.AutoSize = true;
             label10.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            label10.Location = new Point(4, 56);
             label10.Name = "label10";
             label10.Size = new Size(73, 21);
             label10.TabIndex = 3;
@@ -335,7 +398,9 @@
             // txt_level2
             // 
             txt_level2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            txt_level2.Location = new Point(83, 48);
             txt_level2.Name = "txt_level2";
+            txt_level2.Size = new Size(70, 29);
             txt_level2.TabIndex = 1;
             // 
             // checkBox2
@@ -348,28 +413,11 @@
             checkBox2.Text = "Начать опрос";
             checkBox2.UseVisualStyleBackColor = true;
             // 
-            // label12
-            // 
-            label12.AutoSize = true;
-            label12.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label12.Location = new Point(11, 177);
-            label12.Name = "label12";
-            label12.Size = new Size(47, 21);
-            label12.TabIndex = 14;
-            label12.Text = "Дата:";
-            // 
-            // txt_date2
-            // 
-            txt_date2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            txt_date2.Location = new Point(90, 174);
-            txt_date2.Name = "txt_date2";
-            txt_date2.Size = new Size(116, 29);
-            txt_date2.TabIndex = 13;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(464, 282);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
@@ -391,7 +439,6 @@
         private CheckBox checkBox1;
         private Label label1;
         private TextBox txt_level1;
-        private RadioButton radioBtn1;
         private Label label5;
         private TextBox txt_sernum1;
         private Label label4;
@@ -401,7 +448,6 @@
         private Label label2;
         private TextBox txt_rate1;
         private GroupBox groupBox2;
-        private RadioButton radioBtn2;
         private Label label6;
         private TextBox txt_sernum2;
         private Label label7;
